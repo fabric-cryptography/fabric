@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.refabriccryptography.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"AutoTorchMixin",
+		"ChatMessageMixin",
+		"MobGlowingMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
